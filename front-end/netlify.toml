@@ -1,12 +1,12 @@
 [build]
- command = "npm run build"
-  publish = "front-end/dist"
+  command = "npm run build"
+  publish = "dist" # 빌드 결과물이 저장되는 디렉토리
 
 [context.production.environment]
   TOML_ENV_VAR = "From netlify.toml"
   REACT_APP_TOML_ENV_VAR = "From netlify.toml (REACT_APP_)"
 
 [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
