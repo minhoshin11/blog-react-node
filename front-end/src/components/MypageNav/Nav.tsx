@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NavList } from "./NavList";
 
-export default function Nav() {
+export default function MyPageNav() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
