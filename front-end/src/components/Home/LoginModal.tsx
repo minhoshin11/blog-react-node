@@ -34,7 +34,7 @@ export default function LoginModal({
       ref={modalRef}
       className={`${
         toggleLogin ? "block" : "hidden"
-      } flex flex-col items-center gap-8 absolute border-2 border-gray-600 mt-[20vw] w-[400px] h-[590px] rounded-md`}
+      } flex flex-col items-center gap-8 absolute border-2 border-gray-600 w-[30vw] pb-[20px] rounded-md`}
     >
       <div className="w-full flex justify-end">
         <IoCloseSharp
@@ -42,7 +42,7 @@ export default function LoginModal({
           className="mt-2 mr-2 mb-2 w-[40px] h-auto text-gray-500"
         />
       </div>
-      <div className="flex flex-col items-center gap-2">
+      <div className="flex flex-col items-center gap-2 px-[50px]">
         <h2 className="text-4xl font-bold">Tistory</h2>
         <p className="text-gray-400">당신의 이야기가 값진 수익이 됩니다.</p>
       </div>
