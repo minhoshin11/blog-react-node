@@ -34,7 +34,7 @@ export default function LoginModal({
       ref={modalRef}
       className={`${
         toggleLogin ? "block" : "hidden"
-      } flex flex-col items-center gap-8 absolute border-2 border-gray-600 w-[30vw] pb-[20px] rounded-md`}
+      } z-20 bg-white flex flex-col items-center gap-8 absolute border-2 border-gray-600 w-[30vw] pb-[20px] rounded-md`}
     >
       <div className="w-full flex justify-end">
         <IoCloseSharp
